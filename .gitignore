@@ -1,0 +1,23 @@
+# Maven and Gradle files
+target
+.gradle
+build
+
+# Eclipse, Netbeans and IntelliJ files
+/.*
+!/.github
+!.gitignore
+!.gitattributes
+!/.mvn
+/nbproject
+*.ipr
+*.iws
+*.iml
+
+# Python files
+__pycache__
+.venv
+venv*
+
+# Repository wide ignore mac DS_Store files
+.DS_Store
