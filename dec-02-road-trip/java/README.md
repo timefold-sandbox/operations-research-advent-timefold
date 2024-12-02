@@ -42,6 +42,18 @@ Note: This is implemented in class `RoadTripConstraintProvider`, which contains 
 - MEDIUM: Try to visit as many locations as possible
 - SOFT: Minimize travel distance
 
+## Results
+
+The first entry in the table is the base case with the listed assumptions.
+The other entries are some alternative interpretations.
+
+| Constraints Enabled        | Bi-Directional Data Used | Distance | Fuel Used | Route                                                                                                                                                                  |
+|----------------------------|--------------------------|----------|-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ALL                        | Yes                      | 2122     | 70        | 39 locations: [1, 18, 46, 44, 72, 19, 69, 90, 45, 99, 39, 43, 97, 60, 16, 75, 47, 87, 81, 85, 32, 2, 3, 15, 6, 66, 52, 26, 57, 38, 51, 74, 24, 11, 5, 34, 14, 42, 100] |
+| ALL except maximize visits | Yes                      | 52       | 15        | 3 location: [1, 80, 100]                                                                                                                                               |
+| ALL                        | No                       | 1451     | 72        | 28 locations: [1, 37, 69, 51, 7, 25, 81, 85, 3, 15, 48, 86, 19, 6, 40, 12, 32, 2, 90, 14, 83, 4, 61, 72, 5, 34, 42,100]                                                |
+| ALL except maximize visits | No                       | 80       | 43        | 4 locations: [1, 59, 2, 100]                                                                                                                                           |
+
 ## Tech
 
 ### Technologies used
