@@ -1,6 +1,33 @@
-## OR Advent 2024
+# OR Advent 2024
 
-* Meetings rooms (1 Dec 2024):
-[Kotlin Notebook](dec-01-meeting-rooms/dec-01-meeting-rooms-kotlin.ipynb)
+Welcome to the **OR Advent 2024** repository! 
+Here we leave our solutions for challenges posed during OR Advent 2024, often leveraging [Timefold](https://timefold.io).
 
-More coming soon!
+> This repository may not always reflect the best practices for using Timefold and will not be kept up to date.
+ 
+### Challenges and Solutions
+
+1. **Meeting Rooms (1 Dec 2024)**
+    - [Kotlin Notebook](dec-01-meeting-rooms/dec-01-meeting-rooms-kotlin.ipynb)
+
+2. **Road Trip (2 Dec 2024)**
+    - [Java (with JBang)](dec-02-road-trip/java)
+
+---
+
+### What's Next?
+
+Stay tuned! More examples and challenges are on the way as we progress through the advent calendar.
+
+### Important Note
+The code in this repository is purely for solving OR Advent challenges.
+These solutions are not production-grade implementations and will not be kept up to date with latest Timefold versions or practices.
+
+For high quality and up to date Timefold content, check out:
+
+| Resource                    | Description                                        | Link                                                                               |
+|-----------------------------|----------------------------------------------------|------------------------------------------------------------------------------------|
+| 🌐 **Website**              | Explore our platform, features, and updates.       | [Visit Website](https://timefold.ai/)                                              |
+| 📖 **Solver Documentation** | In-depth guides and tutorials for Timefold Solver. | [View Documentation](https://docs.timefold.ai/timefold-solver/latest/introduction) |
+| ▶️ **YouTube Channel**      | Video tutorials, demos, and webinars.              | [Watch Videos](https://www.youtube.com/@timefold)                                  |
+
