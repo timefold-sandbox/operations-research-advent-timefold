@@ -36,7 +36,6 @@ direction RL
 
 Note: This is implemented in class `TaskAssigningConstraintProvider`, which contains some additional documentation.
 
-- HARD: Leave no task unassigned
 - HARD: No employee should be assigned twice
 - SOFT: Minimize cost
 

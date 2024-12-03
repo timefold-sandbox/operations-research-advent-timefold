@@ -124,7 +124,6 @@ public class Dec03TaskAssigning {
 
         public TaskAssigningPlan() {
         }
-
     }
 
     public static class TaskAssigningConstraintProvider implements ConstraintProvider {
@@ -133,16 +132,8 @@ public class Dec03TaskAssigning {
         public Constraint @NonNull [] defineConstraints(@NonNull ConstraintFactory constraintFactory) {
             return new Constraint[] {
                     minimizeCost(constraintFactory),
-                    noUnassignedTasks(constraintFactory),
                     employeesShouldOnlyHaveASingleTask(constraintFactory)
             };
-        }
-
-        protected Constraint noUnassignedTasks(ConstraintFactory constraintFactory) {
-            return constraintFactory.forEach(Task.class)
-                    .filter(t -> t.employee == null)
-                    .penalize(HardSoftScore.ONE_HARD)
-                    .asConstraint("No unassigned tasks");
         }
 
         protected Constraint employeesShouldOnlyHaveASingleTask(ConstraintFactory constraintFactory) {

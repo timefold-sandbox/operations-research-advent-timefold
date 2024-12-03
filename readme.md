@@ -13,6 +13,10 @@ Here we leave our solutions for challenges posed during OR Advent 2024, often le
 2. **Road Trip (2 Dec 2024)**
     - [Java (with JBang)](dec-02-road-trip/java)
 
+3. **Task Assigning (3 Dec 2024)**
+   - [Kotlin Notebook](dec-03-task-assigning/python/dec-3-task-assigning-python.ipynb)
+   - [Java (with JBang)](dec-03-task-assigning/java)
+   
 ---
 
 ### What's Next?
