@@ -18,17 +18,18 @@ In this case, I have chosen to model the task costs inside the Task class, inste
 classDiagram
 direction RL
     class Employee {
-        +int id
+        int id
     }
 
-
     class Task {
+        int id
         <<@PlanningEntity>>
         Employee employee
+        Map~int/int~ costPerEmployee: 
         
     }
 
-    employee <-- task:  @PlanningVariable
+    Employee <-- Task:  @PlanningVariable
 ```
 
 ### Constraints
