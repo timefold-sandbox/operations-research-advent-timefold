@@ -1,7 +1,8 @@
 # OR Advent 2024
 
 Welcome to the **OR Advent 2024** repository! 
-Here we leave our solutions for challenges posed during [OR Advent 2024](https://advent.bmenendez.com/), often leveraging [Timefold](https://timefold.io).
+Here are our solutions for the [OR Advent 2024](https://advent.bmenendez.com/) challenges,
+leveraging [Timefold Solver](https://timefold.ai/open-source-solver), an open source PlanningAI solver.
 
 ### Challenges and Solutions
 
