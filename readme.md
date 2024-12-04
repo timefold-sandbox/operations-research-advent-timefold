@@ -3,8 +3,6 @@
 Welcome to the **OR Advent 2024** repository! 
 Here we leave our solutions for challenges posed during [OR Advent 2024](https://advent.bmenendez.com/), often leveraging [Timefold](https://timefold.io).
 
-> This repository may not always reflect the best practices for using Timefold and will not be kept up to date.
- 
 ### Challenges and Solutions
 
 1. **Meeting Rooms (1 Dec 2024)**
