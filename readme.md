@@ -14,7 +14,10 @@ Here we leave our solutions for challenges posed during [OR Advent 2024](https:/
 3. **Task Assigning (3 Dec 2024)**
    - [Python Notebook](dec-03-task-assigning/python/dec-3-task-assigning-python.ipynb)
    - [Java (with JBang)](dec-03-task-assigning/java)
-   
+  
+4. **School timetabling (4 DEC 2024)**
+   - TODO
+
 ---
 
 ### What's Next?

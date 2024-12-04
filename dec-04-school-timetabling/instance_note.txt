@@ -1,0 +1,7 @@
+# This contains problem dimensions: 4 classes, 4 teachers, 4 rooms, 30 periods, and 120 scheduling requirements.
+
+NUMBER OF TEACHERS =          4
+NUMBER OF SUBJECTS =         20
+NUMBER OF CLASSES =          4
+NUMBER OF ROOM AVAILABLE =          4
+NUMBER OF REQUIREMENTS =        120
