@@ -17,7 +17,7 @@ leveraging [Timefold Solver](https://timefold.ai/open-source-solver), an open so
    - [Java (with JBang)](dec-03-task-assigning/java)
   
 4. **School timetabling (4 DEC 2024)**
-   - TODO
+   - [Kotlin Notebook](dec-04-school-timetabling/dec-04-school-timetabling-kotlin.ipynb)
 
 ---
 
