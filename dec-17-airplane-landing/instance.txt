@@ -1,0 +1,47 @@
+# This file gives you:
+# First, the number of planes
+# For each plane, in consecutive order: appearance time, earliest landing time, target landing time, latest landing time, penalty cost per unit of time for landing before target, penalty cost per unit of time for landing after target
+# Then, in consecutive order: for each plane i, the separation time required after that plane i lands before plane j
+
+# For example, here we have 10 planes
+# First plane has:
+#   appearance tiem = 54
+#   earliest landing time = 129
+#   target landing time = 155
+#   latest landing time = 559
+#   penalty cost before target = 10.00
+#   penalty cost after target = 10.00
+# Then, separation to itself is 99999, to plane 2 is 3, to plane 3 is 15, and so on and so forth
+
+ 10
+ 54 129 155 559 10.00 10.00
+ 99999 3 15 15 15 15 15 15
+ 15 15
+ 120 195 258 744 10.00 10.00
+ 3 99999 15 15 15 15 15 15
+ 15 15
+ 14 89 98 510 30.00 30.00
+ 15 15 99999 8 8 8 8 8
+ 8 8
+ 21 96 106 521 30.00 30.00
+ 15 15 8 99999 8 8 8 8
+ 8 8
+ 35 110 123 555 30.00 30.00
+ 15 15 8 8 99999 8 8 8
+ 8 8
+ 45 120 135 576 30.00 30.00
+ 15 15 8 8 8 99999 8 8
+ 8 8
+ 49 124 138 577 30.00 30.00
+ 15 15 8 8 8 8 99999 8
+ 8 8
+ 51 126 140 573 30.00 30.00
+ 15 15 8 8 8 8 8 99999
+ 8 8
+ 60 135 150 591 30.00 30.00
+ 15 15 8 8 8 8 8 8
+ 99999 8
+ 85 160 180 657 30.00 30.00
+ 15 15 8 8 8 8 8 8
+ 8 99999
+
